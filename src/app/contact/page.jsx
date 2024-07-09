@@ -5,6 +5,7 @@ import Image from "next/image";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ContactAni from "./ContactAni";
 
 
 const Contact = () => {
@@ -15,10 +16,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_q7fw8tc",
-        "template_y10yfz7",
+        "service_l7bwncp",
+        "template_r6nvzoe",
         form.current,
-        "0AGx-yacdwuJYI7go"
+        "lOej7hF1MNKpr8k0j"
       )
       .then(
         (result) => {
@@ -37,15 +38,10 @@ const Contact = () => {
   };
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Let's Keep in Touch</h1>
+      <h1 className={styles.title}>Contact me for your services</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
-          <Image
-            src="/contact.png"
-            alt=""
-            fill={true}
-            className={styles.image}
-          />
+           <ContactAni />
         </div>
 
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
