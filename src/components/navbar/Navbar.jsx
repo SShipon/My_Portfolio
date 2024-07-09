@@ -62,7 +62,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl px-10 border border-rose-500">Bayazid</a>
+        <a className="btn btn-ghost normal-case text-xl hidden lg:block py-2 px-10 ">Bayazid</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
