@@ -4,11 +4,7 @@ const DateYears = () => {
   return (
     <div>
       
-        <p className='lg:
-        
-        
-        
-        text-2xl text-base'>
+        <p className='lg:text-2xl text-base'>
             Ant Design ©{new Date().getFullYear()} Created by Ant UED
           </p>
     </div>
