@@ -4,7 +4,7 @@ import React from "react";
 import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
-
+import Hero from "public/pakhi.png";
 
 const links = [
   {
@@ -63,7 +63,12 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <span className="text-xl font-bold" style={{color:'#38bdf8'}}>Abdur__Rahman</span>
+          <div className="flex justify-center items-center">
+          <Image  src={Hero} alt="Hero Image" className=" object-cover w-[50px] h-[50px]" /> 
+          <span className="text-xl font-bold  hover:text-rose-500 transition-all duration-300">
+  Abdur__Rahman
+</span>
+          </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
