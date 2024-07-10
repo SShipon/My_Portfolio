@@ -5,6 +5,7 @@ import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import { signOut, useSession } from "next-auth/react";
 import Image from "next/image";
 
+
 const links = [
   {
     id: 1,
@@ -62,7 +63,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl hidden lg:block py-2 px-10 ">Bayazid</a>
+        <span className="text-xl font-bold" style={{color:'#38bdf8'}}>Abdur__Rahman</span>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">
@@ -81,23 +82,12 @@ const Navbar = () => {
         <div className="mx-2">
           <DarkModeToggle />
         </div>
+        
         <div className="dropdown dropdown-end">
-          <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-            <div className="w-10 rounded-full">
-              {/* <Image src="/porfile.png" alt="" fill={true} className={styles.image} /> */}
-            </div>
-          </label>
-          <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content rounded-box w-52">
-            <li>
-              <a className="justify-between">
-                Profile
-                <span className="badge">New</span>
-              </a>
-            </li>
-            <li><a>Settings</a></li>
-            <li><a>Logout</a></li>
-          </ul>
+        <button style={{backgroundColor:'#38bdf8', border:'none' }} className="btn  btn-sm px-6">Login</button>
         </div>
+
+
       </div>
     </div>
   );
