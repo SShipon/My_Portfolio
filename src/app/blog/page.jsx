@@ -45,7 +45,7 @@ const products = [
     description: "Step up your game with MKS Batting Gloves, engineered for ultimate comfort and protection at the crease. Crafted with precision and designed for performance, these gloves are essential gear for every cricketer Featuring a lightweight design and split-finger construction, MKS Batting Gloves offer maximum flexibility and dexterity, allowing you to maintain control and precision during every shot. The duo-layer of foam padding provides exceptional impact protection, shielding your hands from the rigors of fast-paced cricket",
     category: "facebook",
     rating: 4.8,
-    image: "https://i.ibb.co/MfKpynw/cricket-gloves.png",
+    image: "https://i.ibb.co/n0bs97Q/download-3.jpg",
     isFeatured: true
   },
   {
