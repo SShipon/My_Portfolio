@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import useSWR from 'swr'
+import Category from '../portfolio/[category]/page';
 
 //const fetcher = (...args) => fetch(...args).then((res) => res.json())
  
@@ -14,7 +14,9 @@ const page = () => {
   
   return (
     <div>
-      <h2 className='text-5xl text-center'>this is hllo</h2>
+      <h2 className='text-5xl text-center'>
+
+      </h2>
        
     </div>
   );
