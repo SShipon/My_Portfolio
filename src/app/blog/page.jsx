@@ -61,8 +61,10 @@ const products = [
 
 export default function page() {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-4">Product Grid</h1>
+    <div className="container mx-auto p-8 my-10 ">
+       <div className="my-9">
+         <h1 className="text-2xl font-bold text-center mb-4">OUR SERVICES</h1>
+       </div>
       <ProductGrid products={products} key={products.id} />
     </div>
   );
