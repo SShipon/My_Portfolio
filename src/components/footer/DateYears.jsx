@@ -4,8 +4,8 @@ const DateYears = () => {
   return (
     <div>
       
-        <p className='lg:text-2xl text-base'>
-            Ant Design ©{new Date().getFullYear()} Created by Ant UED
+        <p className='lg:text-2xl text-base mx-24'>
+           Develop by nxshipon ©{new Date().getFullYear()} Created 
           </p>
     </div>
   );
